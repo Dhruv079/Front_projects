@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    
+    text-align: center;
+    font-size: 50px;
+
+}
+.block{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    /* padding-top:70px ;
+    padding-bottom: 70px; */
+    align-items: center;
+    color: black;
+    margin:0 auto;
+    background-color: white;
+    /* max-height: 500px; */
+}
+img{
+    max-width: 100%;
+}
+.bio>h1{
+    text-align: left;
+}
+.bio>p{
+    font-size: medium;
+    text-align: left;
+}
+.bio{
+    max-width: 40rem;
+}
+hr{ 
+    width: 100%;
+}
